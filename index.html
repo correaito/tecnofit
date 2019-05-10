@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html  >
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  
+  <title>Página Inicial - Tecnofit Teste Dev</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Assistant:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+     
+</head>
+<body>
+
+<!-- carrega a navbar -->
+<div id="navbar"></div> 
+
+<section class="cid-rp9GpVnz7O mbr-fullscreen mbr-parallax-background" id="header2-1k" style="height: 100%">    
+
+    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(35, 35, 35);"></div>
+
+    <div class="container align-center">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
+                 <div style="font-weight: bold; color: white; font-family: 'Assistant', sans-serif; font-size: 58px;">TecnoFit - Teste Dev</div>
+                
+                <div style="padding-bottom: 50px; padding-top: 5px; color: #ffffff; font-family: 'Assistant', sans-serif; font-size: 27px;">
+                 Acesse uma das áreas abaixo&nbsp;</div>
+
+                  <div class="mbr-section-btn">
+                  <button type="button" data-toggle="modal" data-target="#option_produts" class="btn btn-primary"><i class="fas fa-box-open"></i>&nbsp; Produtos</button>
+                  <button type="button" data-toggle="modal" data-target="#option_pedids" class="btn btn-secondary"><i class="fas fa-shopping-cart"></i>&nbsp; Pedidos</button>
+
+            </div>
+        </div>
+    </div>
+   
+</section>
+
+
+<!-- Modais Bootstrap -->
+
+<div class="modal" tabindex="-1" id="option_produts" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Escolha uma das opções</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" align="center">  
+          <div class="btn-group">      
+           <a href="cad_produtos.html"><button type="button" class="btn btn-primary"><i class="far fa-edit"></i>&nbsp;Cadastro</button></a>
+           <a href="list_produtos.html"><button type="button" class="btn btn-secondary"><i class="far fa-list-alt"></i>&nbsp;Listagem</button></a>
+          </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal" tabindex="-1" id="option_pedids" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Escolha uma das opções</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" align="center">  
+          <div class="btn-group">      
+           <a href="cad_pedidos.html"><button type="button" class="btn btn-primary"><i class="far fa-edit"></i>&nbsp;Cadastro</button></a>
+           <a href="list_pedido.html"><button type="button" class="btn btn-secondary"><i class="far fa-list-alt"></i>&nbsp;Listagem</button></a>
+          </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="assets/web/assets/jquery/jquery.min.js"></script>
+<script src="assets/popper/popper.min.js"></script>
+<script src="assets/tether/tether.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/smoothscroll/smooth-scroll.js"></script>
+<script src="assets/dropdown/js/script.min.js"></script>
+<script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+<script src="assets/theme/js/script.js"></script>
+
+
+
+<script>
+  // roda a navbar a partir de assets/bootstrap/includes/navbar.html
+    $(document).ready(function() {
+$('#navbar').load('assets/bootstrap/includes/navbar.html');
+});
+</script>
+  
+  
+</body>
+</html>

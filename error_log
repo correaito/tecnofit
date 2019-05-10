@@ -1,0 +1,24 @@
+[02-May-2019 09:30:29 America/Chicago] PHP Parse error:  syntax error, unexpected '$string' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 2
+[02-May-2019 09:30:55 America/Chicago] PHP Parse error:  syntax error, unexpected '$string' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 3
+[02-May-2019 09:31:13 America/Chicago] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 3
+[02-May-2019 09:31:28 America/Chicago] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 3
+[02-May-2019 09:32:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 3
+[02-May-2019 09:32:48 America/Chicago] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 2
+[02-May-2019 09:34:18 America/Chicago] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 3
+[02-May-2019 09:34:39 America/Chicago] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 3
+[02-May-2019 09:34:52 America/Chicago] PHP Parse error:  syntax error, unexpected '$str' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 2
+[02-May-2019 09:35:51 America/Chicago] PHP Parse error:  syntax error, unexpected ' echo' (T_STRING) in /home/corre034/public_html/tecnofit/teste.php on line 5
+[02-May-2019 09:36:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/teste.php on line 5
+[02-May-2019 09:36:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/teste.php on line 4
+[02-May-2019 09:37:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/teste.php on line 5
+[02-May-2019 09:37:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/teste.php on line 5
+[02-May-2019 09:38:13 America/Chicago] PHP Parse error:  syntax error, unexpected '$teste' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 5
+[02-May-2019 09:38:32 America/Chicago] PHP Parse error:  syntax error, unexpected '$teste' (T_VARIABLE) in /home/corre034/public_html/tecnofit/teste.php on line 5
+[02-May-2019 09:38:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/teste.php on line 5
+[02-May-2019 09:39:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/teste.php on line 5
+[02-May-2019 09:41:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/teste.php on line 4
+[02-May-2019 09:41:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/teste.php on line 4
+[02-May-2019 09:41:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/teste.php on line 4
+[02-May-2019 09:42:15 America/Chicago] PHP Parse error:  syntax error, unexpected ' ' (T_STRING) in /home/corre034/public_html/tecnofit/teste.php on line 9
+[02-May-2019 10:12:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/teste.php on line 5
+[02-May-2019 10:14:17 America/Chicago] PHP Parse error:  syntax error, unexpected ''<br/>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/corre034/public_html/tecnofit/teste.php on line 5

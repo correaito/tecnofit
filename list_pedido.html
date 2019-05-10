@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html  >
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.9.7, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  
+  <title>Listagem de Pedidos</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.18/b-1.5.6/b-colvis-1.5.6/b-flash-1.5.6/b-html5-1.5.6/b-print-1.5.6/cr-1.5.0/datatables.min.css"/>
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Assistant:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <style>
+/*estilização dos botões do plugin Datatables*/
+    .btn-secondary, .btn-secondary:active {
+    background-color: #343A40 !important;
+    border-color: #343A40 !important;
+    color: #ffffff !important;
+  }
+
+   .btn-secondary, .btn-secondary:hover {
+    background-color: #343A40 !important;
+    border-color: #343A40 !important;
+    color: #ffffff !important;
+  }
+
+    </style>
+  
+  
+  
+</head>
+<body>
+
+  <!-- carrega a navbar -->
+  <div id="navbar"></div>
+
+  <section class="mbr-section form1 cid-rp9LtEzUC3" id="form1-1o" style="padding-top: 90px;">  
+
+   <div align="center" style="padding-bottom: 20px; padding-top: 5px; color: black; font-family: 'Assistant', sans-serif; font-size: 30px;">Listagem de Pedidos</div>    
+
+   <table id="panelpedidos" class="table table-hover table-condensed" cellspacing="0" width="100%">  
+
+    <thead>
+      <tr>
+        <th>Pedido Nº</th>
+        <th>Data</th>
+        <th>SKU</th> 
+        <th>Código</th>
+        <th>Descrição</th>
+        <th>Quantidade</th>
+        <th>V. Unitário</th>
+        <th>V. Total</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+
+</section>
+
+
+<div class="modal" tabindex="-1" id="exlc_pedd" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Mensagem!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" align="center">  
+       <!-- mensagem do callback da exclusão do pedido -->
+       <div id="msg_exl_pdd"></div> 
+     </div>
+     <div class="modal-footer">
+     </div>
+   </div>
+ </div>
+</div>
+
+
+<script src="assets/web/assets/jquery/jquery.min.js"></script>
+<script src="assets/popper/popper.min.js"></script>
+<script src="assets/tether/tether.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/smoothscroll/smooth-scroll.js"></script>
+<script src="assets/dropdown/js/script.min.js"></script>
+<script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+<script src="assets/theme/js/script.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.10.18/b-1.5.6/b-colvis-1.5.6/b-flash-1.5.6/b-html5-1.5.6/b-print-1.5.6/cr-1.5.0/datatables.min.js"></script>
+
+<script>
+
+  $(document).ready(function(){
+
+    $('#panelpedidos').DataTable({
+
+      "search": {
+        "smart": true
+      },
+
+
+    "order": [], // segue o ordenamento da consulta sql
+
+    "ajax":'assets/bootstrap/queries/qry_list_pedidos.php', //o arquivo qry_list_pedidos.php gera um arquivo json a ser lido pelo Datatables
+
+    "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "Todos"]], // paginacao de resultados
+
+    colReorder: true, // colunas podem ser reordenadas
+
+    // posição dos elementos da tabela
+    dom: "<'col-sm-12'<'row'<'col-sm-12 col-md-6'B><'col-sm-12 col-md-6'f>>" +
+"<'row'<'col-sm-12 col-md-12't>>" +
+"<'row'<'col-sm-12 col-md-7'p>>>",
+
+    buttons: [
+
+
+
+    {
+
+
+      columns: ':visible',
+// botoes para copiar e salvar em diversos formatos
+extend: 'excel', text: 'Excel',
+
+exportOptions: { // parametros o arquivo excel a ser salvo
+          columns: ':visible',
+          format: {
+              body: function(data, row, column, node) {
+                  data = $('<p>' + data + '</p>').text();
+                  return $.isNumeric(data.replace(',', '.')) ? data.replace(',', '.') : data;
+              }
+          }
+      },
+
+
+
+messageTop: 'Lista de Pedidos Gerados'},
+{extend: 'pdf', text: 'PDF',
+
+orientation: 'landscape',
+
+exportOptions: { // parametros o arquivo pdf a ser salvo
+          columns: ':visible',
+          format: {
+              body: function(data, row, column, node) {
+                  data = $('<p>' + data + '</p>').text();
+                  return $.isNumeric(data.replace(',', ',')) ? data.replace('.', ',') : data;
+              }
+          }
+      }
+},
+
+],
+
+"language": {    
+ // tradução dos elementos do DataTables para portugues
+ "lengthMenu": "Mostrando _MENU_ resultados por página",
+ "zeroRecords": "Nada encontrado - desculpe",
+ "info": "Mostrando página _PAGE_ de _PAGES_",
+ "infoEmpty": "Sem resultados avaliados",
+ "infoFiltered": "(filtrado de _MAX_ total registros)",
+ "paginate": {
+  "first":      "Primeiro",
+  "last":       "Anterior",
+  "next":       "Próximo",
+  "previous":   "Anterior"
+},
+"search":         "Buscar:",
+},
+
+});
+  });
+
+  /*metodo para exclusao do pedido*/
+  function excl_pedido(numero) {
+
+    $.post('assets/bootstrap/bd/excluir_ped.php', {numero: numero}, function(retorno) {
+
+      $('#exlc_pedd').modal('show');
+
+      $('#msg_exl_pdd').html(retorno);
+// damos uma refrescada na tabela para atualizar posição atual do bd
+$('#panelpedidos').DataTable().ajax.reload();
+
+
+});
+
+  }
+
+// roda a navbar a partir de assets/bootstrap/includes/navbar.html
+$(document).ready(function() {
+  $('#navbar').load('assets/bootstrap/includes/navbar.html');
+});
+
+</script>
+
+
+</body>
+</html>

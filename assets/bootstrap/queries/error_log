@@ -1,0 +1,105 @@
+[30-Apr-2019 23:02:42 America/Chicago] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:02:42 America/Chicago] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:02:42 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 6
+[30-Apr-2019 23:03:18 America/Chicago] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:03:18 America/Chicago] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:03:18 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 6
+[30-Apr-2019 23:03:56 America/Chicago] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:03:56 America/Chicago] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:03:56 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 6
+[30-Apr-2019 23:05:01 America/Chicago] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:05:01 America/Chicago] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:05:01 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 5
+[30-Apr-2019 23:05:25 America/Chicago] PHP Warning:  include(.../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:05:25 America/Chicago] PHP Warning:  include(): Failed opening '.../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:05:25 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 5
+[30-Apr-2019 23:06:09 America/Chicago] PHP Warning:  include(/config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:06:09 America/Chicago] PHP Warning:  include(): Failed opening '/config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 3
+[30-Apr-2019 23:06:09 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 5
+[30-Apr-2019 23:07:33 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/corre034/public_html/tecnofit/config.php:10
+Stack trace:
+#0 /home/corre034/public_html/tecnofit/config.php(10): PDO->__construct('mysql:host=loca...', 'root', 'J@cqueline2013', Array)
+#1 /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php(3): include('/home/corre034/...')
+#2 {main}
+  thrown in /home/corre034/public_html/tecnofit/config.php on line 10
+[30-Apr-2019 23:44:41 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 10
+[30-Apr-2019 23:45:10 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 10
+[30-Apr-2019 23:45:10 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 10
+[30-Apr-2019 23:52:44 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 10
+[30-Apr-2019 23:52:44 America/Chicago] PHP Warning:  implode(): Invalid arguments passed in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 10
+[30-Apr-2019 23:54:11 America/Chicago] PHP Parse error:  syntax error, unexpected ''*'' (T_CONSTANT_ENCAPSED_STRING) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 10
+[01-May-2019 00:23:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 8
+[01-May-2019 00:24:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 8
+[01-May-2019 00:24:35 America/Chicago] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 15
+[01-May-2019 00:25:56 America/Chicago] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 13
+[01-May-2019 00:26:09 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 13
+[01-May-2019 00:26:30 America/Chicago] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 13
+[01-May-2019 00:27:35 America/Chicago] PHP Parse error:  syntax error, unexpected '$string_array' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 15
+[01-May-2019 00:31:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 8
+[01-May-2019 14:16:59 America/Chicago] PHP Parse error:  syntax error, unexpected '"*"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 23
+[01-May-2019 14:17:18 America/Chicago] PHP Parse error:  syntax error, unexpected ''-'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 23
+[01-May-2019 15:38:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 22
+[01-May-2019 15:41:23 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 13
+[01-May-2019 15:42:39 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 14
+[01-May-2019 15:46:57 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 21
+[01-May-2019 15:47:39 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_familia.php on line 14
+[02-May-2019 10:32:40 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/check_cod_prod.php on line 17
+[02-May-2019 10:35:31 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/check_cod_prod.php on line 11
+[02-May-2019 10:35:42 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/check_cod_prod.php on line 11
+[02-May-2019 13:48:31 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/check_cod_prod.php on line 13
+[02-May-2019 16:43:42 America/Chicago] PHP Warning:  include(../../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/dtables_qry_produtos.php on line 2
+[02-May-2019 16:43:42 America/Chicago] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/dtables_qry_produtos.php on line 2
+[02-May-2019 16:43:42 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/dtables_qry_produtos.php on line 4
+[02-May-2019 16:45:10 America/Chicago] PHP Warning:  include(../../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/dtables_qry_produtos.php on line 2
+[02-May-2019 16:45:10 America/Chicago] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/dtables_qry_produtos.php on line 2
+[02-May-2019 16:45:10 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/dtables_qry_produtos.php on line 4
+[02-May-2019 16:49:49 America/Chicago] PHP Warning:  include(../../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/dtables_qry_produtos.php on line 2
+[02-May-2019 16:49:49 America/Chicago] PHP Warning:  include(): Failed opening '../../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/dtables_qry_produtos.php on line 2
+[02-May-2019 16:49:49 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/dtables_qry_produtos.php on line 4
+[02-May-2019 23:22:20 America/Chicago] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_produto.php on line 3
+[02-May-2019 23:22:20 America/Chicago] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_produto.php on line 3
+[02-May-2019 23:22:20 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_produto.php on line 7
+[02-May-2019 23:22:24 America/Chicago] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_produto.php on line 3
+[02-May-2019 23:22:24 America/Chicago] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_produto.php on line 3
+[02-May-2019 23:22:24 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_produto.php on line 7
+[02-May-2019 23:23:55 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/dtables_qry_produtos.php on line 15
+[02-May-2019 23:24:47 America/Chicago] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_produto.php on line 3
+[02-May-2019 23:24:47 America/Chicago] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_produto.php on line 3
+[02-May-2019 23:24:47 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_produto.php on line 7
+[04-May-2019 12:22:32 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_pedido.php on line 16
+[04-May-2019 12:22:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_pedido.php on line 20
+[04-May-2019 12:24:39 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_pedido.php on line 26
+[04-May-2019 22:55:55 America/Chicago] PHP Parse error:  syntax error, unexpected '$linha' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[04-May-2019 22:56:13 America/Chicago] PHP Parse error:  syntax error, unexpected '$linha' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[04-May-2019 22:56:32 America/Chicago] PHP Parse error:  syntax error, unexpected '$linha' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[04-May-2019 22:57:39 America/Chicago] PHP Parse error:  syntax error, unexpected '$linha' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[04-May-2019 22:58:35 America/Chicago] PHP Parse error:  syntax error, unexpected '$numero' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 39
+[04-May-2019 22:59:01 America/Chicago] PHP Parse error:  syntax error, unexpected '$numero' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 39
+[04-May-2019 22:59:50 America/Chicago] PHP Parse error:  syntax error, unexpected ''\'><span  ></span><i class=\'' (T_CONSTANT_ENCAPSED_STRING) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 39
+[04-May-2019 23:00:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$numero' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 39
+[04-May-2019 23:00:44 America/Chicago] PHP Parse error:  syntax error, unexpected '$numero' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 39
+[04-May-2019 23:01:34 America/Chicago] PHP Parse error:  syntax error, unexpected '$numero' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 39
+[04-May-2019 23:01:51 America/Chicago] PHP Parse error:  syntax error, unexpected '$numero' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 39
+[04-May-2019 23:07:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'numero' (T_STRING) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 39
+[04-May-2019 23:09:31 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[04-May-2019 23:09:42 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[04-May-2019 23:10:09 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[04-May-2019 23:10:49 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[04-May-2019 23:11:04 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[04-May-2019 23:11:39 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[04-May-2019 23:13:03 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 37
+[05-May-2019 21:18:30 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 29
+[05-May-2019 21:33:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$consultaprod' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 47
+[05-May-2019 21:34:54 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 47
+[05-May-2019 21:35:17 America/Chicago] PHP Parse error:  syntax error, unexpected '$consultaprod' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 45
+[05-May-2019 21:37:11 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 45
+[05-May-2019 21:37:32 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 45
+[05-May-2019 21:45:59 America/Chicago] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 51
+[05-May-2019 21:46:31 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 48
+[05-May-2019 21:48:21 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 48
+[05-May-2019 21:48:37 America/Chicago] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 51
+[05-May-2019 21:51:59 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 62
+[05-May-2019 21:53:08 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 62
+[05-May-2019 21:54:09 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_cons_ped.php on line 59
+[07-May-2019 15:48:59 America/Chicago] PHP Parse error:  syntax error, unexpected ''.$linha['' (T_CONSTANT_ENCAPSED_STRING) in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 38
+[07-May-2019 15:50:36 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/corre034/public_html/tecnofit/assets/bootstrap/queries/qry_list_pedidos.php on line 38
