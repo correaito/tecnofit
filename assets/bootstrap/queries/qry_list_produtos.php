@@ -13,7 +13,7 @@ $row .= '"data": [';
 while ($linha = $consulta->fetch()) {
 
 
-                $id = $linha['id_produto'];
+                $id = $linha['id']; // string id do produto
            		
 				$row .= '[';                
 				$row .=	'"'.$linha['sku'].'",'; 
