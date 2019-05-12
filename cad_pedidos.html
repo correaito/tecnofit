@@ -27,7 +27,7 @@
     .mbr-form .input-group-btn button[type="submit"] {
       border-radius: 0px !important;
       padding: 1rem 3rem;
-    }
+    } 
   </style>
   
 
@@ -74,39 +74,21 @@
              <a href="javascript:void(0);" data-toggle="modal" data-target="#option_produts"><i class="fas fa-plus-circle"></i>&nbsp; Incluir Produto</label></a>
            </div>
 
-           <table class="table table-hover table-responsive-lg" id="tab_logic">
-            <thead style="background-color: grey; color: white;">
-              <tr> 
-                <td class="text-center">
-                  SKU
-                </td>
-                <td class="text-center">
-                  Código
-                </td>
-                <td class="text-center">
-                  Descrição
-                </td>
-                <td class="text-center">
-                  Quant.
-                </td>
-                <td class="text-center">
-                  Valor Unit.
-                </td>
-                <td class="text-center">
-                  Sub Total
-                </td>
-                <td class="text-center">
-                </td>
-              </tr>
-            </thead>
+<table class="table table-hover table-responsive-lg" id="products-table" style="width: 100%; margin-bottom: 50px">
 
-            <tbody>     
-              <tr id="addr0" class="text-center tablet"> <!-- aqui vão ser exibidas as linhas dinamicas dos produtos incluidos no pedido -->
-              </tr>
-              <tr id="addr1" class="text-center tablet">              
-              </tr>
-            </tbody>
-          </table>
+   <tr>
+<thead style="background-color: grey; color: white;">
+<th class="text-center">SKU</th>
+<th class="text-center">Código</th>
+<th class="text-center">Descrição</th>
+<th class="text-center">Quant.</th>
+<th class="text-center">Valor Unit.</th>
+<th class="text-center">Sub Total.</th>
+<th></th>
+</tr>
+</thead>
+
+</table>
 
 
           <div class="col-md-12 input-group-btn align-center">
