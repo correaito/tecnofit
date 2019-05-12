@@ -46,6 +46,8 @@ $consultaprod = $pdo->query("SELECT * FROM produtos where id = '$iddoprod'");
 
 $linhaprod = $consultaprod->fetch();
 
+//função str_replace para alterar numero decimal com ponto para virgula
+$vtotalitem = str_replace(".", ",", $linha['vtotal']);
 
 $row .= "<td class=\"text-center sku\">".$linhaprod['sku']."</td>
 <td class=\"text-center sku\">".$linhaprod['codigo']."</td>
@@ -54,7 +56,7 @@ $row .= "<td class=\"text-center sku\">".$linhaprod['sku']."</td>
 
 $row .= "<td class=\"text-center sku\">".$linha['quantidade']."</td>
 <td class=\"text-center sku\">".$linha['vunitario']."</td>
-<td class=\"text-center sku\">".$linha['vtotal']."</td>
+<td class=\"text-center sku\">".$vtotalitem."</td>
 </tr>";
 
 }
