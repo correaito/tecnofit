@@ -34,7 +34,7 @@ cols += '<td class=\"text-center quant_total\"><input name=\"quantidade\" value=
 cols += '<td class=\"text-center\"><input name=\"valorunnt\" value="'+valor+'"></td>';
 cols += '<td style=\"display:none\" class=\"text-center\"><input name=\"valorttal\" value="'+vtotalvirg+'"></td>';
 cols += '<td class=\"text-center\"><input name=\"vttvisual\" value="'+vtotalvisual+'"></td>';
-cols += '<td class=\"text-center\"><a href="#"><i title="Excluir" onclick="RemoveTableRow(this)" class=\"fas fa-trash-alt remover\"></i></a></td>';
+cols += '<td class=\"text-center\"><a href="#"><i title="Excluir" onclick="RemoveProduto(this)" class=\"fas fa-trash-alt remover\"></i></a></td>';
 cols += '</tr>';
                      
 $("#products-table").append(cols);  
@@ -64,7 +64,7 @@ $('#option_produts').modal('hide');
 
 
 
-function RemoveTableRow(linha) {
+function RemoveProduto(linha) {
 var tr = $(linha).closest('tr');
 
 tr.fadeOut(400, function(){ 
