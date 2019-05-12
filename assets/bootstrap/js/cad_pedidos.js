@@ -62,15 +62,13 @@ $('#option_produts').modal('hide');
   }
 
 
-
-
 function RemoveProduto(linha) {
 var tr = $(linha).closest('tr');
 
 tr.fadeOut(400, function(){ 
 tr.remove(); 
 
-
+// recalcula novamente todos os valores subtotais produtos
   var total = 0;
 
       $('input[name=valorttal]').each(function(){
@@ -82,15 +80,7 @@ tr.remove();
       $('#qtdtotal').val(total.toFixed(2).replace('.',','));
 
 
-
-
 });
-
-
-  // Soma total dos itens no ato do carregamento do produto no pedido
-
-
-
 }
 
 
