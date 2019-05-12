@@ -20,7 +20,7 @@ while ($linha = $consulta->fetch()) {
 				$row .=	'"'.$linha['codigo'].'",'; 
 				$row .=	'"'.$linha['descricao'].'",'; 
 		
-				$row .= '"<a href=\'javascript:void(0);\'><span  ></span><i class=\'fas fa-arrow-alt-circle-down\' onclick=\'incluirprod('.$id.');\' title=\'Incluir\'></i></a>"';
+				$row .= '"<a href=\'javascript:void(0);\'><span  ></span><i class=\'fas fa-arrow-alt-circle-down\' onclick=\'AddProduto('.$id.');\' title=\'Incluir\'></i></a>"';
 				$row .= ']';
 				$i++;
 				if ($i == $numero) { $row .= "";} else {$row .= ",";}
