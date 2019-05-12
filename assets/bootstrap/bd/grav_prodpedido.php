@@ -8,9 +8,6 @@ $valorunit = $_POST['valorunit'];
 $vtotal = $_POST['vtotal'];
 $num_pedido = $_POST['num_pedido'];
 
-if ($id_produto == '') {} // aqui, uma precaução, se alguma linha não carregar nenhum produto, logo não fará nada
-
-	else {
 
 // grava os dados dos produtos na tabela prodt_pedido atrelado ao número do pedido
 $exe_inclu = $pdo->query("INSERT INTO prodt_pedido (
@@ -33,8 +30,6 @@ id_produto
 
 )");
 
-
-}
 
 
 
