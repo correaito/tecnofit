@@ -1,9 +1,6 @@
 
-
 /*metodo para inclusão dos produtos no pedido*/
-   var i=0; 
-
-  function incluirprod(id) {   
+function AddProduto(id) {  
 
   $.post("assets/bootstrap/queries/qry_produto.php", {id: id}, function(retorno) {
 
@@ -25,15 +22,26 @@
    // retorna o calculo ao campo sub total visivel ao usuario com centavos separados por virgula (,)
    vtotalvisual = vtotal.toFixed(2).replace('.',',');
 
-   
-    $('#addr'+i).html("<td style=\"display:none;\" class=\"text-center\"><input name=\"id_produto\" value=\""+id_produto+"\"></td><td class=\"text-center sku\">"+sku+"</td><td class=\"text-center codigo\">"+codigo+"</td><td class=\"text-center\">"+descricao+"</td> <td class=\"text-center\"><input class=\"quant_total\" name=\"quantidade\" value=\""+quantidade+"\"></td><td class=\"text-center\"><input id=\"valor_unit\" name=\"valorunnt\" disabled value=\""+valor+"\"></td><td style=\"display:none\" class=\"text-center\"><input id=\"valor_ttal\" name=\"valorttal\" disabled value=\""+vtotalvirg+"\"></td><td class=\"text-center\"><input name=\"vttvisual\" disabled value=\""+vtotalvisual+"\"></td><td class=\"text-center\"><div><i class=\"fas fa-trash-alt remover\"></i></div></td>");
 
-    $('#tab_logic').append('<tr id="addr'+(i+1)+'" class="text-center tablet"></tr>');
+var cols = "";
 
-    i++; 
+cols += '<tr class=\"tablet\">';
+cols += '<td style=\"display:none;\" class=\"text-center\"><input name=\"id_produto\" value="'+id_produto+'"></td>';
+cols += '<td class=\"text-center\">'+sku+'</td>';
+cols += '<td class=\"text-center\">'+codigo+'</td>';
+cols += '<td class=\"text-center\">'+descricao+'</td>';
+cols += '<td class=\"text-center quant_total\"><input name=\"quantidade\" value="'+quantidade+'"></td>';
+cols += '<td class=\"text-center\"><input name=\"valorunnt\" value="'+valor+'"></td>';
+cols += '<td style=\"display:none\" class=\"text-center\"><input name=\"valorttal\" value="'+vtotalvirg+'"></td>';
+cols += '<td class=\"text-center\"><input name=\"vttvisual\" value="'+vtotalvisual+'"></td>';
+cols += '<td class=\"text-center\"><a href="#"><i title="Excluir" onclick="RemoveTableRow(this)" class=\"fas fa-trash-alt remover\"></i></a></td>';
+cols += '</tr>';
+                     
+$("#products-table").append(cols);  
 
 
-    // Soma total dos itens no ato do carregamento do produto no pedido
+
+  // Soma total dos itens no ato do carregamento do produto no pedido
       var total = 0;
 
       $('input[name=valorttal]').each(function(){
@@ -51,7 +59,40 @@
 $('#option_produts').modal('hide');
 
 
+  }
+
+
+
+
+function RemoveTableRow(linha) {
+var tr = $(linha).closest('tr');
+
+tr.fadeOut(400, function(){ 
+tr.remove(); 
+
+
+  var total = 0;
+
+      $('input[name=valorttal]').each(function(){
+
+        total += parseFloat($(this).val());
+
+      }); 
+      
+      $('#qtdtotal').val(total.toFixed(2).replace('.',','));
+
+
+
+
+});
+
+
+  // Soma total dos itens no ato do carregamento do produto no pedido
+
+
+
 }
+
 
 
 // metodo ao alterar as quantidades do pedido
